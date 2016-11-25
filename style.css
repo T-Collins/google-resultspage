@@ -1,0 +1,145 @@
+* {
+	-webkit-appearance: none;
+    	-moz-appearance: none;
+    	appearance: none;
+	border-style: none;
+}
+
+div {
+	display: block;
+
+}
+
+
+a {
+	text-decoration: none;
+	color: rgba(0,0,0,0.8);
+	font-size: 12px;
+}
+
+li img {
+	margin: auto;
+	height: 30px;
+	width: 30px;
+	vertical-align: middle;
+}
+
+#navbar input {
+	background-color: #4285f4;
+	color: white; 
+	padding: 10px 15px;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+input {
+	background-color: #f2f2f2;
+	border: 1px solid rgba(0,0,0,0);
+	margin-top: 5px;
+	padding: 10px 15px;
+	font-weight: bold;
+	font-family: arial,sans-serif;
+	color:  rgba(0,0,0,0.5);
+	font-size: 12px;
+}
+
+#searchbutton {
+	margin: 5px 5px;
+}
+
+#searchbutton:hover {
+	border: 1px solid rgba(0,0,0,0.25);
+	color:  rgba(0,0,0,0.85);
+}
+
+
+a:hover {
+	text-decoration: underline;
+	color: rgba(0,0,0,1);
+}
+
+
+#header {
+	text-align: center;
+	display: block;
+	position: fixed;
+	margin: auto;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #f2f2f2;
+}
+
+#logo {
+	width: 100px;
+	height: auto;
+}
+
+#searchbar {
+	width: 45%;
+	height: 16px;
+	border: 1px solid rgba(0,0,0,0.25);
+	padding: 10px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: white;
+
+}
+
+#searchbar:hover {
+	border-color: rgba(0,0,0,0.55);
+}
+
+#searchbar:focus {
+	border-color: #4285f4;
+}
+
+#navbar {
+	display: block;
+	position: fixed;
+	top: 10px;
+	right: 12px;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+
+.footer {
+	display: block;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	width: 98%;
+	background-color: #f2f2f2;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	margin-top: 15px;
+	padding: 10px 15px;
+
+}
+
+.footer .left {
+	float: left;
+}
+
+.footer .right {
+	float: right;
+
+}
+#navbar *, .footer * , #header * {
+	display: inline;
+	padding: 5px 5px;
+
+}
+
+.footer * a {
+	color: rgba(0,0,0,0.5);
+}
+
+#logosub {
+	font: 16px/16px roboto-regular,arial,sans-serif;
+	position: absolute;
+	right:42.1%;
+	top: 42.9%;
+	color: #4285f4;
+}
